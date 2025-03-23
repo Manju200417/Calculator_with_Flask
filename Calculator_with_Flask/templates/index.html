@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+    <title>Flask_Calculator</title>
+</head>
+
+<body>
+    <form method="post">
+        <h3>Calculator Using Flask</h3><br>
+        <input class="disp" type="number" name="num1" placeholder="Enter 1st number" required><br><br>
+        <input class="disp" type="number" name="num2" placeholder="Enter 2nd number" required><br>
+        {% if ans is not none %}
+        <h3 id="ans">Result :{{ans}}</h3>
+        {% endif %}
+
+        <br>
+        <div class="btns">
+            <button type="submit" name="op" value="add">+</button>
+            <button type="submit" name="op" value="sub">-</button>
+            <button type="submit" name="op" value="mul">*</button>
+            <button type="submit" name="op" value="div">/</button>
+        </div>
+    </form>
+</body>
+
+</html>
