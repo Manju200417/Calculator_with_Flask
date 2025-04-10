@@ -22,6 +22,15 @@ A simple web-based calculator built using **Flask**. It performs basic arithmeti
 │── README.md # Project documentation  
 
 ---
+## 🌐 Live Demo
+
+Check out the live Flask Calculator app deployed on Render:
+
+👉 [https://calculator-with-flask.onrender.com](https://calculator-with-flask.onrender.com)
+
+This app is built using Python and Flask, and demonstrates basic arithmetic operations in a web interface.
+
+---
 
 ## 🔧 Installation  
 
